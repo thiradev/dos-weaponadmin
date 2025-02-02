@@ -19,54 +19,54 @@ enum E_WEAPON_DATA
 
 new WeaponData[][E_WEAPON_DATA] =
 {
-    {1, "Brass Knuckles", " π—∫¡◊Õ"},
-    {2, "Golf Club", "‰¡È°Õ≈Ïø"},
-    {3, "Nightstick", "‰¡È‡§“–"},
-    {4, "Knife", "¡’¥"},
-    {5, "Baseball Bat", "‰¡È‡∫ ∫Õ≈"},
-    {6, "Shovel", "æ≈—Ë«"},
-    {7, "Pool Cue", "‰¡ÈæŸ≈"},
-    {8, "Katana", "¥“∫§“µ“π–"},
-    {9, "Chainsaw", "‡≈◊ËÕ¬‚´Ë"},
-    {10, "Purple Dildo", "¥‘≈‚¥È¡Ë«ß"},
-    {11, "Dildo", "¥‘≈‚¥È"},
-    {12, "Vibrator", "‰«‡∫√‡µÕ√Ï"},
-    {13, "Silver Vibrator", "‰«‡∫√‡µÕ√Ï‡ß‘π"},
-    {14, "Flowers", "¥Õ°‰¡È"},
-    {15, "Cane", "‰¡È‡∑È“"},
-    {16, "Grenade", "√–‡∫‘¥¡◊Õ"},
-    {17, "Tear Gas", "·°Í πÈ”µ“"},
-    {18, "Molotov Cocktail", "¡Õ≈Õ∑Õø §ÁÕ°‡∑≈"},
-    {22, "9MM", "ª◊πæ° 9 ¡¡."},
-    {23, "Silenced 9MM", "ª◊πæ° 9 ¡¡. ´‘≈‘π‡´Õ√Ï"},
-    {24, "Desert Eagle", "‡¥ ‡´‘√Ïµ Õ’‡°‘≈"},
-    {25, "Shotgun", "™ÁÕµ°—π"},
-    {26, "Sawnoff Shotgun", "™ÁÕµ°—π´Õ«ÏπÁÕø"},
-    {27, "Combat Shotgun", "™ÁÕµ°—πµËÕ ŸÈ"},
-    {28, "Micro SMG", "‰¡‚§√ ‡Õ ‡ÕÁ¡®’"},
-    {29, "MP5", "‡ÕÁ¡æ’ 5"},
-    {30, "AK-47", "‡Õ‡§ 47"},
-    {31, "M4", "‡ÕÁ¡ 4"},
-    {32, "TEC-9", "‡∑§ 9"},
-    {33, "Country Rifle", "‰√‡ø‘≈™π∫∑"},
-    {34, "Sniper Rifle", " ‰π‡ªÕ√Ï‰√‡ø‘≈"},
-    {35, "RPG", "Õ“√Ïæ’®’"},
-    {36, "HS Rocket", "®√«¥ HS"},
-    {37, "Flamethrower", "ª◊π‰ø"},
-    {38, "Knuckles", " π—∫¡◊Õ"},
-    {39, "Satchel Charge", "√–‡∫‘¥°√–‡ªÎ“"},
-    {40, "Detonator", "µ—«®ÿ¥√–‡∫‘¥"},
-    {41, "Spraycan", "°√–ªÎÕß ‡ª√¬Ï"},
-    {42, "Fire Extinguisher", "∂—ß¥—∫‡æ≈‘ß"},
-    {43, "Camera", "°≈ÈÕß"},
-    {44, "Night Vision Goggles", "·«Ëπµ“‰π∑Ï«‘™—Ëπ"},
-    {45, "Thermal Goggles", "·«Ëπµ“§«“¡√ÈÕπ"},
-    {46, "Parachute", "√Ë¡™Ÿ™’æ"}
+    {1, "Brass Knuckles", "‡∏™‡∏ô‡∏±‡∏ö‡∏°‡∏∑‡∏≠"},
+    {2, "Golf Club", "‡πÑ‡∏°‡πâ‡∏Å‡∏≠‡∏•‡πå‡∏ü"},
+    {3, "Nightstick", "‡πÑ‡∏°‡πâ‡πÄ‡∏Ñ‡∏≤‡∏∞"},
+    {4, "Knife", "‡∏°‡∏µ‡∏î"},
+    {5, "Baseball Bat", "‡πÑ‡∏°‡πâ‡πÄ‡∏ö‡∏™‡∏ö‡∏≠‡∏•"},
+    {6, "Shovel", "‡∏û‡∏•‡∏±‡πà‡∏ß"},
+    {7, "Pool Cue", "‡πÑ‡∏°‡πâ‡∏û‡∏π‡∏•"},
+    {8, "Katana", "‡∏î‡∏≤‡∏ö‡∏Ñ‡∏≤‡∏ï‡∏≤‡∏ô‡∏∞"},
+    {9, "Chainsaw", "‡πÄ‡∏•‡∏∑‡πà‡∏≠‡∏¢‡πÇ‡∏ã‡πà"},
+    {10, "Purple Dildo", "‡∏î‡∏¥‡∏•‡πÇ‡∏î‡πâ‡∏°‡πà‡∏ß‡∏á"},
+    {11, "Dildo", "‡∏î‡∏¥‡∏•‡πÇ‡∏î‡πâ"},
+    {12, "Vibrator", "‡πÑ‡∏ß‡πÄ‡∏ö‡∏£‡πÄ‡∏ï‡∏≠‡∏£‡πå"},
+    {13, "Silver Vibrator", "‡πÑ‡∏ß‡πÄ‡∏ö‡∏£‡πÄ‡∏ï‡∏≠‡∏£‡πå‡πÄ‡∏á‡∏¥‡∏ô"},
+    {14, "Flowers", "‡∏î‡∏≠‡∏Å‡πÑ‡∏°‡πâ"},
+    {15, "Cane", "‡πÑ‡∏°‡πâ‡πÄ‡∏ó‡πâ‡∏≤"},
+    {16, "Grenade", "‡∏£‡∏∞‡πÄ‡∏ö‡∏¥‡∏î‡∏°‡∏∑‡∏≠"},
+    {17, "Tear Gas", "‡πÅ‡∏Å‡πä‡∏™‡∏ô‡πâ‡∏≥‡∏ï‡∏≤"},
+    {18, "Molotov Cocktail", "‡∏°‡∏≠‡∏•‡∏≠‡∏ó‡∏≠‡∏ü ‡∏Ñ‡πá‡∏≠‡∏Å‡πÄ‡∏ó‡∏•"},
+    {22, "9MM", "‡∏õ‡∏∑‡∏ô‡∏û‡∏Å 9 ‡∏°‡∏°."},
+    {23, "Silenced 9MM", "‡∏õ‡∏∑‡∏ô‡∏û‡∏Å 9 ‡∏°‡∏°. ‡∏ã‡∏¥‡∏•‡∏¥‡∏ô‡πÄ‡∏ã‡∏≠‡∏£‡πå"},
+    {24, "Desert Eagle", "‡πÄ‡∏î‡∏™‡πÄ‡∏ã‡∏¥‡∏£‡πå‡∏ï ‡∏≠‡∏µ‡πÄ‡∏Å‡∏¥‡∏•"},
+    {25, "Shotgun", "‡∏ä‡πá‡∏≠‡∏ï‡∏Å‡∏±‡∏ô"},
+    {26, "Sawnoff Shotgun", "‡∏ä‡πá‡∏≠‡∏ï‡∏Å‡∏±‡∏ô‡∏ã‡∏≠‡∏ß‡πå‡∏ô‡πá‡∏≠‡∏ü"},
+    {27, "Combat Shotgun", "‡∏ä‡πá‡∏≠‡∏ï‡∏Å‡∏±‡∏ô‡∏ï‡πà‡∏≠‡∏™‡∏π‡πâ"},
+    {28, "Micro SMG", "‡πÑ‡∏°‡πÇ‡∏Ñ‡∏£ ‡πÄ‡∏≠‡∏™‡πÄ‡∏≠‡πá‡∏°‡∏à‡∏µ"},
+    {29, "MP5", "‡πÄ‡∏≠‡πá‡∏°‡∏û‡∏µ 5"},
+    {30, "AK-47", "‡πÄ‡∏≠‡πÄ‡∏Ñ 47"},
+    {31, "M4", "‡πÄ‡∏≠‡πá‡∏° 4"},
+    {32, "TEC-9", "‡πÄ‡∏ó‡∏Ñ 9"},
+    {33, "Country Rifle", "‡πÑ‡∏£‡πÄ‡∏ü‡∏¥‡∏•‡∏ä‡∏ô‡∏ö‡∏ó"},
+    {34, "Sniper Rifle", "‡∏™‡πÑ‡∏ô‡πÄ‡∏õ‡∏≠‡∏£‡πå‡πÑ‡∏£‡πÄ‡∏ü‡∏¥‡∏•"},
+    {35, "RPG", "‡∏≠‡∏≤‡∏£‡πå‡∏û‡∏µ‡∏à‡∏µ"},
+    {36, "HS Rocket", "‡∏à‡∏£‡∏ß‡∏î HS"},
+    {37, "Flamethrower", "‡∏õ‡∏∑‡∏ô‡πÑ‡∏ü"},
+    {38, "Knuckles", "‡∏™‡∏ô‡∏±‡∏ö‡∏°‡∏∑‡∏≠"},
+    {39, "Satchel Charge", "‡∏£‡∏∞‡πÄ‡∏ö‡∏¥‡∏î‡∏Å‡∏£‡∏∞‡πÄ‡∏õ‡πã‡∏≤"},
+    {40, "Detonator", "‡∏ï‡∏±‡∏ß‡∏à‡∏∏‡∏î‡∏£‡∏∞‡πÄ‡∏ö‡∏¥‡∏î"},
+    {41, "Spraycan", "‡∏Å‡∏£‡∏∞‡∏õ‡πã‡∏≠‡∏á‡∏™‡πÄ‡∏õ‡∏£‡∏¢‡πå"},
+    {42, "Fire Extinguisher", "‡∏ñ‡∏±‡∏á‡∏î‡∏±‡∏ö‡πÄ‡∏û‡∏•‡∏¥‡∏á"},
+    {43, "Camera", "‡∏Å‡∏•‡πâ‡∏≠‡∏á"},
+    {44, "Night Vision Goggles", "‡πÅ‡∏ß‡πà‡∏ô‡∏ï‡∏≤‡πÑ‡∏ô‡∏ó‡πå‡∏ß‡∏¥‡∏ä‡∏±‡πà‡∏ô"},
+    {45, "Thermal Goggles", "‡πÅ‡∏ß‡πà‡∏ô‡∏ï‡∏≤‡∏Ñ‡∏ß‡∏≤‡∏°‡∏£‡πâ‡∏≠‡∏ô"},
+    {46, "Parachute", "‡∏£‡πà‡∏°‡∏ä‡∏π‡∏ä‡∏µ‡∏û"}
 };
 
 new UseWeaponID[MAX_PLAYERS];
 
-alias:weaponadmin("‡ °Õ“«ÿ∏")
+alias:weaponadmin("‡πÄ‡∏™‡∏Å‡∏≠‡∏≤‡∏ß‡∏∏‡∏ò")
 CMD:weaponadmin(playerid, params[])
 {
     if (playerData[playerid][pAdmin] < 1)
@@ -82,7 +82,7 @@ CMD:weaponadmin(playerid, params[])
 		}
 	}
 
-	return Dialog_Show(playerid, DIALOG_WEAPON_ADMIN, DIALOG_STYLE_TABLIST, "[ √“¬°“√Õ“«ÿ∏ ]", string, "‡≈◊Õ°", "µ°≈ß");
+	return Dialog_Show(playerid, DIALOG_WEAPON_ADMIN, DIALOG_STYLE_TABLIST, "[ ‡∏£‡∏≤‡∏¢‡∏Å‡∏≤‡∏£‡∏≠‡∏≤‡∏ß‡∏∏‡∏ò ]", string, "‡πÄ‡∏•‡∏∑‡∏≠‡∏Å", "‡∏ï‡∏Å‡∏•‡∏á");
 }
 
 Dialog:DIALOG_WEAPON_ADMIN(playerid, response, listitem, inputtext[])
@@ -92,10 +92,8 @@ Dialog:DIALOG_WEAPON_ADMIN(playerid, response, listitem, inputtext[])
         UseWeaponID[playerid] = WeaponData[listitem][WeaponID];
 
         new str[256];
-        format(str, sizeof str, "§ÿ≥‰¥È‡≈◊Õ°Õ“«ÿ∏ '%s' °√ÿ≥“°√Õ°®”π«π∑’Ë§ÿ≥µÈÕß°“√", WeaponData[listitem][WeaponNameTHA]);
-        Dialog_Show(playerid, DIALOG_WEAPON_ADMIN_GIVE, DIALOG_STYLE_INPUT, "Weapon Give", str, "µ°≈ß", "¬°‡≈‘°");
-        // printf("test: %d", WeaponData[listitem][WeaponID]);
-        // GivePlayerWeaponEx(playerid, WeaponData[listitem][WeaponID], 1);
+        format(str, sizeof str, "{FFFFFF}‡∏Ñ‡∏∏‡∏ì‡πÑ‡∏î‡πâ‡πÄ‡∏•‡∏∑‡∏≠‡∏Å‡∏≠‡∏≤‡∏ß‡∏∏‡∏ò '%s' ‡∏Å‡∏£‡∏∏‡∏ì‡∏≤‡∏Å‡∏£‡∏≠‡∏Å‡∏à‡∏≥‡∏ô‡∏ß‡∏ô‡∏ó‡∏µ‡πà‡∏Ñ‡∏∏‡∏ì‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£", WeaponData[listitem][WeaponNameENG]);
+        Dialog_Show(playerid, DIALOG_WEAPON_ADMIN_GIVE, DIALOG_STYLE_INPUT, "Weapon Give", str, "‡∏ï‡∏Å‡∏•‡∏á", "‡∏¢‡∏Å‡πÄ‡∏•‡∏¥‡∏Å");
     }
     return 1;
 }
@@ -110,8 +108,8 @@ Dialog:DIALOG_WEAPON_ADMIN_GIVE(playerid, response, listitem, inputtext[])
 
 		if (sscanf(inputtext, "d", amount))
 		{
-            format(str, sizeof str, "§ÿ≥‰¥È‡≈◊Õ°Õ“«ÿ∏ '%s' °√ÿ≥“°√Õ°®”π«π∑’Ë§ÿ≥µÈÕß°“√", WeaponData[listitem][WeaponNameTHA]);
-            Dialog_Show(playerid, DIALOG_WEAPON_ADMIN_GIVE, DIALOG_STYLE_INPUT, "Weapon Give", str, "µ°≈ß", "¬°‡≈‘°");
+            format(str, sizeof str, "{FFFFFF}‡∏Ñ‡∏∏‡∏ì‡πÑ‡∏î‡πâ‡πÄ‡∏•‡∏∑‡∏≠‡∏Å‡∏≠‡∏≤‡∏ß‡∏∏‡∏ò '%s' ‡∏Å‡∏£‡∏∏‡∏ì‡∏≤‡∏Å‡∏£‡∏≠‡∏Å‡∏à‡∏≥‡∏ô‡∏ß‡∏ô‡∏ó‡∏µ‡πà‡∏Ñ‡∏∏‡∏ì‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£", WeaponData[listitem][WeaponNameENG]);
+            Dialog_Show(playerid, DIALOG_WEAPON_ADMIN_GIVE, DIALOG_STYLE_INPUT, "Weapon Give", str, "‡∏ï‡∏Å‡∏•‡∏á", "‡∏¢‡∏Å‡πÄ‡∏•‡∏¥‡∏Å");
 	    	return 1;
 		}
         else
